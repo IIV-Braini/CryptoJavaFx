@@ -29,7 +29,7 @@ public class StaticAnalyzer {
     }
 
     /**
-     * Метод возвращает значения в процентах, встречаемости букв из нашего алфавита.
+     * Метод возвращает значения в процентах, встречаемости букв в нашем алфавите.
      */
     private static List<Double> countCharacterFrequencyInPercent(String filePath) {
         double countAllSymbolsInFile = 0;
